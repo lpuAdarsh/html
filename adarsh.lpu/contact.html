@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body{ background-color: pink;
+    }
+    .a{ width: 200px;;
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logooo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                     <li><a href="products.html">Products</a></li>
+                    
+                     <li><a href="contact.html">Contact</a></li>
+                     <li><a href="account.html">Account</a></li>
+
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+        </div>
+    <main>
+        <div class="col-19">
+            <img src="images/image1.png" width="40%" height="400px">
+        </div>
+        <section class="contact">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you!</p>
+            <form>
+                <label for="name" >Name:</label>
+                <input type="text" id="name" name="name" required class="a"> <br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required class="a"> <br>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required  class="a"></textarea>
+                
+                <button type="submit" >Send Message</button>
+            </form> <br>
+            <div class="contact-info">
+                <p>
+                    Address: law gate lpu
+                    <br> <br>
+                    Phone: 8757404245
+                    <br> <br>
+                    Email: <a href="mailto:help@gmail.com">help@gmail.com</a>
+                </p>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
